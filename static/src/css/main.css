@@ -5,8 +5,13 @@
   height: 100%;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 main {
-  height: 100%;
+  flex: 1 0 auto;
 }
 
 .main-content-area {
