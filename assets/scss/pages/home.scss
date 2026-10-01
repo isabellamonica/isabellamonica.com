@@ -7,7 +7,7 @@
 @use '../shared/variables' as *;
 @use '../shared/mixins' as *;
 
-// Tailwind
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+section {
+    margin-top: 2rem;
+}

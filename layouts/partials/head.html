@@ -26,7 +26,7 @@
 <!-- CSS - compiled from assets/scss/main.scss -->
 <link rel="stylesheet" href="{{ "src/css/main.css" | relURL }}">
 {{ range .Params.css }}
-  <link rel="stylesheet" href="{{ "css/pages/" | relURL }}{{ . }}">
+  <link rel="stylesheet" href="{{ printf "src/css/%s" . | relURL }}">
 {{ end }}
 
 <!-- canonical -->

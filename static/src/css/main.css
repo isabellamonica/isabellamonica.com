@@ -7,9 +7,6 @@
 
 main {
   height: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
 }
 
 .main-content-area {
@@ -313,4 +310,4 @@ p.tableData {
     font-size: 27px !important;
     line-height: 125% !important;
   }
-}/*# sourceMappingURL=main.css.map */
+}

@@ -13,9 +13,9 @@
     "watch:scss:pages": "sass assets/scss/pages:assets/css/pages --watch",
 
     "build:css": "postcss assets/css/main.css -o static/src/css/main.css",
-    "build:css:pages": "postcss assets/css/pages/*.css --dir static/css/pages --base assets/css/pages",
+    "build:css:pages": "postcss assets/css/pages/*.css --dir static/src/css --base assets/css/pages",
     "watch:css": "postcss assets/css/main.css -o static/src/css/main.css --watch",
-    "watch:css:pages": "postcss assets/css/pages/*.css --dir static/css/pages --base assets/css/pages --watch",
+    "watch:css:pages": "postcss assets/css/pages/*.css --dir static/src/css --base assets/css/pages --watch",
 
     "css:rebuild": "npm run build:scss && npm run build:scss:pages && npm run build:css && npm run build:css:pages"
   },
