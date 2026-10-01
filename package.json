@@ -12,25 +12,17 @@
     "watch:scss": "sass assets/scss/main.scss assets/css/main.css --watch",
     "watch:scss:pages": "sass assets/scss/pages:assets/css/pages --watch",
 
-    "build:css": "postcss assets/css/main.css -o static/css/main.css",
+    "build:css": "postcss assets/css/main.css -o static/src/css/main.css",
     "build:css:pages": "postcss assets/css/pages/*.css --dir static/css/pages --base assets/css/pages",
-    "watch:css": "postcss assets/css/main.css -o static/css/main.css --watch",
+    "watch:css": "postcss assets/css/main.css -o static/src/css/main.css --watch",
     "watch:css:pages": "postcss assets/css/pages/*.css --dir static/css/pages --base assets/css/pages --watch",
 
     "css:rebuild": "npm run build:scss && npm run build:scss:pages && npm run build:css && npm run build:css:pages"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GROWDND/2025HugoStarter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/GROWDND/2025HugoStarter/issues"
-  },
-  "homepage": "https://github.com/GROWDND/2025HugoStarter#readme",
   "devDependencies": {
     "autoprefixer": "^10.4.22",
     "concurrently": "^9.2.1",

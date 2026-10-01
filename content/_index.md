@@ -1,9 +1,7 @@
 ---
-title: 'Index Title Page'
-description: 'Index Title Page'
-image:  /images/brand/share.png
+title: 'Isabella Monica'
+PageTitle: 'Isabella Monica | Fiction Writer'
+description: 'Isabella Monica writes romance, upmarket fiction, literary fiction, and poetry.'
 priority: 1.0
-cta: false
-js: ['menu.js']
-css: [ 'index.css']
 ---
+

@@ -1,14 +1,14 @@
 {{ define "main" }}
-<div class="container py-5">
+<div class="content">
   <h1>{{ .Title }}</h1>
-  {{ .Content }}
+  <div class="prose">{{ .Content }}</div>
 
   {{ if .Pages }}
-  <ul class="list-unstyled mt-4">
+  <ul class="item-list">
     {{ range .Pages }}
-    <li class="mb-3">
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-      {{ if .Description }}<p class="text-muted mb-0">{{ .Description }}</p>{{ end }}
+    <li class="item">
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ with .Description }}<div class="item__meta">{{ . }}</div>{{ end }}
     </li>
     {{ end }}
   </ul>

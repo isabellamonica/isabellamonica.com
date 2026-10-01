@@ -1,14 +1,9 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://isabellamonica.com/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-
-[params]
-CompanyName = 'My Hugo Site'
-repoName = 'GitRepoName'
+title = 'Isabella Monica'
 
 [environments.development]
 baseURL = 'http://localhost:1313/'
 
 [environments.production]
-baseURL = 'https://example.org/'
-
+baseURL = 'https://isabellamonica.com/'
