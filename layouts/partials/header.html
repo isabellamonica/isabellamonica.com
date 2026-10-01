@@ -5,7 +5,12 @@
         <a href="{{ "/" | relURL }}" class="site-title">{{ .Site.Title }}</a>
       </div>
       <div class="col-auto">
-          <ul class="ul-reset d-flex align-items-center">
+          <button type="button" class="menu-toggle d-md-none" aria-expanded="false" aria-controls="primary-menu" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul id="primary-menu" class="primary-menu ul-reset d-flex align-items-center">
             <li class="nav-link-wrapper"><a href="/" class="nav-link">Home</a></li>
             <li class="nav-link-wrapper"><a href="/books" class="nav-link">Books</a></li>
             <li class="nav-link-wrapper"><a href="/contact" class="nav-link">Contact</a></li>

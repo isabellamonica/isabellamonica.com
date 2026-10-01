@@ -5,6 +5,63 @@ header {
   display: flex;
   align-items: center;
   height: 75px;
+  position: relative;
+
+  // Hamburger button (hidden at md and up via d-md-none)
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+
+    span {
+      display: block;
+      width: 100%;
+      height: 2px;
+      background: $black;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+
+    &[aria-expanded="true"] {
+      span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+      span:nth-child(2) { opacity: 0; }
+      span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    }
+  }
+
+  // Below md the links become a dropdown under the header
+  @media (max-width: 767.98px) {
+    // Let the dropdown position against the header, not the container
+    .site-container-1340 {
+      position: static;
+    }
+
+    .primary-menu {
+      display: none !important;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      height: 100vh;
+      background: #fff;
+      padding: 0.5rem 0;
+
+      .nav-link-wrapper {
+        padding: 0.5rem 1rem;
+      }
+    }
+
+    &.menu-open .primary-menu {
+      display: block !important;
+    }
+  }
 
   .site-title{
     font-size: 1.5rem;
@@ -29,5 +86,12 @@ header {
            color: $blue;
       }
     }
+  }
+}
+
+// Stop the page scrolling behind the open mobile menu
+@media (max-width: 767.98px) {
+  html:has(header.menu-open) {
+    overflow: hidden;
   }
 }

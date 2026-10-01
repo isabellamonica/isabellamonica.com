@@ -18,6 +18,11 @@ main {
     flex: 1 0 auto;
 }
 
+body > header,
+body > footer {
+    flex-shrink: 0;
+}
+
 .main-content-area {
     margin-bottom: 0;
     overflow: clip;
