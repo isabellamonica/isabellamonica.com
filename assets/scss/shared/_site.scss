@@ -1,6 +1,7 @@
 // ==========================================================================
-// MIXINS
-// Your reusable SCSS mixins - all your syntax magic goes here!
+// SITE LAYOUT
+// Simple single-column author site (header, narrow content, footer)
 // ==========================================================================
 
-@use 'variables' as *;
+@use 'mixins' as *;
+
