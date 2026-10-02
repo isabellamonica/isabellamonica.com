@@ -8,6 +8,19 @@
 @use '../shared/mixins' as *;
 
 
+#initials-section{
+    .initials{
+        font-size: 3rem;
+        font-family: "Dawning of a New Day";
+        color: #38761d;
+
+        @media (min-width: 768px) {
+            font-size: 6rem;
+        }
+    }
+}
+
+
 section {
     margin-top: 2rem;
 }

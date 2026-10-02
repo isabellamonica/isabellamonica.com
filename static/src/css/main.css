@@ -164,6 +164,11 @@ header {
   height: 75px;
   position: relative;
 }
+header .initials {
+  font-size: 24px;
+  font-family: "Dawning of a New Day";
+  color: #38761d;
+}
 header .menu-toggle {
   display: flex;
   flex-direction: column;
@@ -247,7 +252,7 @@ h1,
   font-size: 36px !important;
   font-weight: 500 !important;
   line-height: 110% !important;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Playfair Display", sans-serif !important;
 }
 h1.app,
 .h1-heading.app {
@@ -261,7 +266,7 @@ h2,
   font-size: 28px !important;
   font-weight: 500 !important;
   line-height: 105% !important;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Playfair Display", sans-serif !important;
 }
 h2.app,
 .h2-heading.app {
@@ -281,7 +286,7 @@ h3,
   font-size: 24px !important;
   font-weight: 500 !important;
   line-height: 115% !important;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Playfair Display", sans-serif !important;
 }
 h3.app,
 .h3-heading.app {
@@ -301,7 +306,7 @@ h4,
   font-size: 20px !important;
   font-weight: 500 !important;
   line-height: 125% !important;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Playfair Display", sans-serif !important;
 }
 
 h5,
@@ -309,7 +314,7 @@ h5,
   font-size: 18px !important;
   font-weight: 500 !important;
   line-height: 115% !important;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Playfair Display", sans-serif !important;
 }
 
 h6,
@@ -317,14 +322,14 @@ h6,
   font-size: 16px !important;
   font-weight: 500 !important;
   line-height: 130% !important;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Playfair Display", sans-serif !important;
 }
 
 p {
   font-size: 16px !important;
   font-weight: 400 !important;
   line-height: 165% !important;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Playfair Display", sans-serif !important;
 }
 p.large {
   font-size: 16px !important;
@@ -347,7 +352,7 @@ p.tableData {
   margin-bottom: 0 !important;
   color: var(--Dark-Grey, #595959) !important;
   text-align: center !important;
-  font-family: Montserrat !important;
+  font-family: Playfair Display !important;
   font-size: 14px !important;
   font-style: normal !important;
   font-weight: 400 !important;
@@ -376,4 +381,4 @@ p.tableData {
     font-size: 27px !important;
     line-height: 125% !important;
   }
-}
+}/*# sourceMappingURL=main.css.map */
