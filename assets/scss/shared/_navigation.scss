@@ -12,6 +12,7 @@ header {
         font-size: 24px;
         font-family: "Dawning of a New Day";
         color: $green;
+        margin-right: 0.5rem;
     }
 
   // Hamburger button (hidden at md and up via d-md-none)
@@ -72,7 +73,7 @@ header {
 
   .site-title{
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 400;
     color: $green;
     text-decoration: none;
     font-family: 'Playfair Display', sans-serif !important;
