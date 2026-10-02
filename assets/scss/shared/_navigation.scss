@@ -11,7 +11,7 @@ header {
   .initials{
         font-size: 24px;
         font-family: "Dawning of a New Day";
-        color: #38761d;
+        color: $green;
     }
 
   // Hamburger button (hidden at md and up via d-md-none)
@@ -78,7 +78,7 @@ header {
 
     &:hover,
     &:active {
-      color: $blue;
+      color: $green;
     }
   }
 
@@ -90,7 +90,7 @@ header {
 
       &:hover,
       &:active {
-           color: $blue;
+           color: $green;
       }
     }
   }

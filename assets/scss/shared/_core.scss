@@ -40,23 +40,6 @@ body > footer {
     width: 1px;
 }
 
-.sr-only-focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: auto;
-    z-index: 10000;
-    padding: 0.75rem 1.5rem;
-    background-color: var(--MRTNavy);
-    color: var(--White);
-    font-size: 1rem;
-    font-weight: 600;
-    text-decoration: none;
-}
 
 html {
     overflow-x: clip;
@@ -72,7 +55,7 @@ html, body {
     margin: 0;
     font-weight: 400;
     line-height: 22px;
-    color: var(--Black);
+    color: $black;
     text-align: left;
     height: 100%;
 
@@ -155,14 +138,14 @@ ol li {
 //                                                          ||
 //////////////////////////////////////////////////////////////
 .primary-link {
-    color: var(--MRTGreen) !important;
+    color: $black !important;
     text-decoration: underline;
     transition: 0.3s !important;
     font-weight: 700;
 
     &:hover,
     &:active {
-        color: var(--MRTNavy) !important;
+        color: $green !important;
     }
 }
 
