@@ -136,7 +136,7 @@ ol li {
   font-weight: 700;
 }
 .primary-link:hover, .primary-link:active {
-  color: #38761d !important;
+  color: #6a2246 !important;
 }
 
 header {
@@ -149,7 +149,7 @@ header {
 header .initials {
   font-size: 24px;
   font-family: "Dawning of a New Day";
-  color: #38761d;
+  color: #6a2246;
 }
 header .menu-toggle {
   display: flex;
@@ -204,12 +204,12 @@ header .menu-toggle[aria-expanded=true] span:nth-child(3) {
 header .site-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #38761d;
+  color: #6a2246;
   text-decoration: none;
   font-family: "Playfair Display", sans-serif !important;
 }
 header .site-title:hover, header .site-title:active {
-  color: #38761d;
+  color: #6a2246;
 }
 header .nav-link-wrapper {
   padding: 0 1rem;
@@ -218,7 +218,7 @@ header .nav-link-wrapper .nav-link {
   color: #000;
 }
 header .nav-link-wrapper .nav-link:hover, header .nav-link-wrapper .nav-link:active {
-  color: #38761d;
+  color: #6a2246;
 }
 
 @media (max-width: 767.98px) {
