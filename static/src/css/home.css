@@ -11,4 +11,44 @@
 
 section {
   margin-top: 2rem;
-}/*# sourceMappingURL=home.css.map */
+}
+
+.notify-toggle {
+  background: none;
+  border: 0;
+  padding: 0;
+}
+
+.notify-form {
+  margin-top: 1rem;
+}
+.notify-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.notify-form__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.notify-form input[type=email] {
+  flex: 1 1 220px;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font: inherit;
+}
+.notify-form button[type=submit] {
+  padding: 0.6rem 1.25rem;
+  border: 0;
+  border-radius: 4px;
+  background: #38761d;
+  color: #fff;
+  font-weight: 600;
+}
+.notify-form button[type=submit]:disabled {
+  opacity: 0.6;
+}
+.notify-form__status {
+  margin: 0.75rem 0 0;
+}

@@ -24,3 +24,50 @@
 section {
     margin-top: 2rem;
 }
+
+// Books page: Notify Me toggle + email form
+.notify-toggle {
+    background: none;
+    border: 0;
+    padding: 0;
+}
+
+.notify-form {
+    margin-top: 1rem;
+
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    input[type="email"] {
+        flex: 1 1 220px;
+        padding: 0.6rem 0.75rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font: inherit;
+    }
+
+    button[type="submit"] {
+        padding: 0.6rem 1.25rem;
+        border: 0;
+        border-radius: 4px;
+        background: #38761d;
+        color: #fff;
+        font-weight: 600;
+
+        &:disabled {
+            opacity: 0.6;
+        }
+    }
+
+    &__status {
+        margin: 0.75rem 0 0;
+    }
+}
