@@ -204,8 +204,9 @@ header .menu-toggle[aria-expanded=true] span:nth-child(3) {
 header .site-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #000;
+  color: #38761d;
   text-decoration: none;
+  font-family: "Playfair Display", sans-serif !important;
 }
 header .site-title:hover, header .site-title:active {
   color: #38761d;
