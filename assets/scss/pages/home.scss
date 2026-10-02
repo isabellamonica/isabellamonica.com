@@ -12,7 +12,7 @@
     .initials{
         font-size: 3rem;
         font-family: "Dawning of a New Day";
-        color: #38761d;
+        color: $green;
 
         @media (min-width: 768px) {
             font-size: 6rem;
@@ -58,7 +58,7 @@ section {
         padding: 0.6rem 1.25rem;
         border: 0;
         border-radius: 4px;
-        background: #38761d;
+        background: $green;
         color: #fff;
         font-weight: 600;
 

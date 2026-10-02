@@ -1,7 +1,7 @@
 #initials-section .initials {
   font-size: 3rem;
   font-family: "Dawning of a New Day";
-  color: #38761d;
+  color: #6a2246;
 }
 @media (min-width: 768px) {
   #initials-section .initials {
@@ -42,7 +42,7 @@ section {
   padding: 0.6rem 1.25rem;
   border: 0;
   border-radius: 4px;
-  background: #38761d;
+  background: #6a2246;
   color: #fff;
   font-weight: 600;
 }
