@@ -6,14 +6,13 @@
         <h1>Debut Upmarket Fiction Novel (In Progress)</h1>
         <p>A nostalgic romance told over a nonlinear course of recollection, innate to describing a first love, with a battle against a personified Silence at its core.</p>
 
-        <button type="button" class="primary-link notify-toggle" aria-expanded="false" aria-controls="notify-form">Get Book Updates</button>
+        <button type="button" class="primary-link notify-toggle" aria-expanded="false" aria-controls="notify-form">Sign up for book updates.</button>
 
         {{/* Netlify Forms: detected at deploy via data-netlify; bot-field is a spam honeypot */}}
         <form id="notify-form" class="notify-form" name="notify" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
           <input type="hidden" name="form-name" value="notify">
           <p hidden><label>Don’t fill this out: <input name="bot-field"></label></p>
 
-          <label for="notify-email">Get an email when the book is out</label>
           <div class="notify-form__row">
             <input id="notify-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
             <button type="submit">Submit</button>
